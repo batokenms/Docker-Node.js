@@ -7,6 +7,8 @@ sudo apt install docker.io -y
 
 echo "Start Docker daemon"
 sudo systemctl start docker
+echo "Check de amount of memory in the system"
+sudo free -h
 
 echo "Enable Docker daemon to start at boot"
 sudo systemctl enable docker
