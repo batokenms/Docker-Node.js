@@ -7,6 +7,8 @@ sudo apt install docker.io -y
 
 echo "Start Docker daemon"
 sudo systemctl start docker
+echo "check de number of CPU"
+sudo nproc
 echo "Check de amount of memory in the system"
 sudo free -h
 
